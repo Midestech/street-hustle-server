@@ -1,0 +1,12 @@
+{
+  "name": "street-hustle-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Street Hustle server for Lagos Life: purchase checks, webhook and live Sharp Eye / Fastest Finger matches. No dependencies.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.mjs"
+  }
+}
